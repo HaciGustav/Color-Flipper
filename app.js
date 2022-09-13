@@ -19,9 +19,9 @@ const randomNumber = () =>{
                 hexColor += hex[randomNumber()]
             }
             // document.body.style.backgroundColor = hexColor
-            console.log(hexColor)
+           // console.log(hexColor)
             item.style.background = hexColor
-            //hexValue.innerText = hexColor
+            hexValue.textContent = hexColor
         })
 
     } )
