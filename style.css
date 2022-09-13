@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    height: 100%;
+    
+}
+.color{
+    border: 2px solid;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hex-value{
+   width: 80%;
+   margin-bottom: 5rem;
+}
