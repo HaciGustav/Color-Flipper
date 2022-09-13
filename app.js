@@ -21,7 +21,7 @@ const randomNumber = () =>{
             // document.body.style.backgroundColor = hexColor
             console.log(hexColor)
             item.style.background = hexColor
-            hexValue.innerText = hexColor
+            //hexValue.innerText = hexColor
         })
 
     } )
