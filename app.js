@@ -5,14 +5,14 @@ const hexValue = document.querySelectorAll(".hex-value")
 
 console.log(hexValue)
 console.log(color)
-//random number picker to pick an item from hex array
+//random number creator to pick an item from hex array
 const randomNumber = () =>{
     return Math.floor(Math.random() * hex.length)
 } 
 //event handler
     color.forEach((item), ()=>{
 
-        item.addEventListener("click", (event)=>{
+        document.body.addEventListener("click", (event)=>{
             let hexColor = "#"
             for(i = 0; i<6; i++){
                 
@@ -20,7 +20,7 @@ const randomNumber = () =>{
             }
             // document.body.style.backgroundColor = hexColor
             console.log(hexColor)
-            sect.style.background = hexColor
+            item.style.background = hexColor
         })
 
     } )
