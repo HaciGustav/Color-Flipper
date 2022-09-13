@@ -10,7 +10,7 @@ const randomNumber = () =>{
     return Math.floor(Math.random() * hex.length)
 } 
 //event handler
-    color.forEach((item), ()=>{
+    color.forEach((item) =>{
 
         document.body.addEventListener("click", (event)=>{
             let hexColor = "#"
@@ -21,6 +21,7 @@ const randomNumber = () =>{
             // document.body.style.backgroundColor = hexColor
             console.log(hexColor)
             item.style.background = hexColor
+            hexValue.textContent = hexColor
         })
 
     } )
@@ -35,6 +36,7 @@ const randomNumber = () =>{
     
     
     //? BACKUP
+    /*
     document.body.addEventListener("click", (event)=>{
         let hexColor = "#"
         for(i = 0; i<6; i++){
@@ -45,7 +47,7 @@ const randomNumber = () =>{
         console.log(hexColor)
         color.style.background = hexColor
     })
-    
+    */    
     
 
 
