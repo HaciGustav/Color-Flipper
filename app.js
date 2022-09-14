@@ -1,7 +1,7 @@
 const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F" ]
 const color = document.querySelectorAll(".color")
 const hexValue = document.querySelectorAll(".hex-value")
-
+const main = document.querySelector("main")
 
 console.log(hexValue)
 console.log(color)
@@ -30,7 +30,7 @@ const randomNumber = () =>{
 
     color.forEach((item) =>{
 
-        document.body.addEventListener("click", (event)=>{
+        main.addEventListener("click", (event)=>{
            
                 let hexColor = "#"
                 for(i = 0; i<6; i++){
