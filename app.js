@@ -28,11 +28,20 @@ const randomNumber = () =>{
         
     } )
 
-    // document.body.addEventListener("keydown", (event)=>{
-    //     if (event.code === "Space"){
-    //         document.body.click()
-    //     }})
-   
+    color.forEach((item) =>{
+
+        document.body.addEventListener("click", (event)=>{
+           
+                let hexColor = "#"
+                for(i = 0; i<6; i++){
+            
+                hexColor += hex[randomNumber()]
+                }
+        item.style.background = hexColor
+        
+        item.firstElementChild.textContent = hexColor
+    })
+} )
     
     
     
