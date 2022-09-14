@@ -21,6 +21,7 @@ const randomNumber = () =>{
                     hexColor += hex[randomNumber()]
                     }
             item.style.background = hexColor
+            
             item.firstElementChild.textContent = hexColor
                 }
         })
