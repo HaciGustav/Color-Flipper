@@ -3,6 +3,23 @@ const color = document.querySelectorAll(".color")
 const hexValue = document.querySelectorAll(".hex-value")
 const main = document.querySelector("main")
 
+color.forEach((item) =>{
+        
+    window.addEventListener("load", (event)=>{
+        
+            let hexColor = "#"
+            for(i = 0; i<6; i++){
+        
+            hexColor += hex[randomNumber()]
+            }
+    item.style.background = hexColor
+    
+    item.firstElementChild.textContent = hexColor
+        
+})
+})
+
+
 console.log(hexValue)
 console.log(color)
 //random number creator to pick an item from hex array
@@ -11,7 +28,6 @@ const randomNumber = () =>{
 } 
 //event handler
     color.forEach((item) =>{
-
         
             document.body.addEventListener("keydown", (event)=>{
                 if (event.code === "Space"){
@@ -31,7 +47,7 @@ const randomNumber = () =>{
     color.forEach((item) =>{
 
         main.addEventListener("click", (event)=>{
-           
+            
                 let hexColor = "#"
                 for(i = 0; i<6; i++){
             
@@ -42,12 +58,19 @@ const randomNumber = () =>{
         item.firstElementChild.textContent = hexColor
     })
 } )
+    color.forEach((item) =>{
+
+        main.addEventListener("load", (event)=>{
+            
+                let hexColor = "#"
+                for(i = 0; i<6; i++){
+            
+                hexColor += hex[randomNumber()]
+                }
+        item.style.background = hexColor
+        
+        item.firstElementChild.textContent = hexColor
+    })
+} )
+
     
-    
-    
-    
-    
-    
-    
-    
-   
