@@ -11,12 +11,6 @@ Color Flipper hepls you with it. All you need to do is just click randomly on sc
 
 https://hacigustav.github.io/Color-Flipper/
 
-## Screenshots
-
-![App Screenshot](https://github.com/HaciGustav/Color-Flipper/blob/main/img/demo-x12.jpg)
-![App Screenshot](https://github.com/HaciGustav/Color-Flipper/blob/main/img/demo-x6.jpg)
-![App Screenshot](https://github.com/HaciGustav/Color-Flipper/blob/main/img/demo-x4.jpg)
-
 ## Lessons Learned
 
 -   JavaScript Events
@@ -30,3 +24,11 @@ Used Bootstrap and CSS
 ## Cloned Page
 
 https://coolors.co/
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/HaciGustav/Color-Flipper/blob/main/img/demo-x12.jpg)
+![App Screenshot](https://github.com/HaciGustav/Color-Flipper/blob/main/img/demo-x6.jpg)
+![App Screenshot](https://github.com/HaciGustav/Color-Flipper/blob/main/img/demo-x4.jpg)
+
