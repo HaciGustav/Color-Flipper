@@ -13,7 +13,7 @@ https://hacigustav.github.io/Color-Flipper/
 
 ## Screenshots
 
-![App Screenshot](./img/demo-x4.png)
+![App Screenshot](https://github.com/HaciGustav/Color-Flipper/blob/main/img/demo-x12.jpg)
 ![App Screenshot](./img/demo-x6.png)
 ![App Screenshot](./img/demo-x12.png)
 
